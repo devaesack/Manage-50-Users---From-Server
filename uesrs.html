@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Users</title>
+    <!-- Tailwind css -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-blue-200 p-20">
+    <div class="bg-white p-10 rouneded shadow-xl">
+        <div class=" flex items-center justify-between">
+            <div class="text-xl font-semibold ">
+        Manage 50 Users
+    </div>
+
+    <div>
+        <button type="button" class="px-2 py-2 bg-blue-400  hover:bg-blue-700 text-white rounded" onclick="loadUser()">Load Users</button>
+    </div>
+        </div>
+        <div class="mt-5 hidden" id="container">
+            
+    <div class="p-5 bg-blue-400" >
+
+          <h4 class="text-xl font-semibold" id="full-name">Default Name </h4>
+          <h4 id="email"> default email</h4>
+    </div>
+    
+</div>
+    
+</div>
+    <script src="main.js"></script>
+</body>
+</html>
